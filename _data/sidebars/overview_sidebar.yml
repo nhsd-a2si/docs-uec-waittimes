@@ -1,0 +1,123 @@
+entries:
+- title: Urgent & Emergency Care Appointment Booking Standards
+  version: v0.1 PREVIEW
+  levels: one
+  folders:
+
+  - title: Inroduction
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Using this site
+      url: /using_this_site.html
+      output: web, pdf
+    - title: Getting Started
+      url: /getting_started.html
+      output: web, pdf
+      
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Definition of Direct Booking
+      url: /definition.html
+      output: web, pdf
+    - title: IUC/111 Landscape
+      output: web, pdf
+      url: /iuc_overview.html
+    - title: What we are doing
+      url: /what_are_we_doing.html
+      output: web, pdf      
+
+  - title: Scope and user stories
+    output: web
+    folderitems:
+    - title: Scope Overview
+      url: /scope_overview.html
+      output: web, pdf
+    - title: Functional Scope
+      url: /scope_functional.html
+      output: web, pdf
+    - title: User Stories
+      url: /use_overview.html
+      output: web, pdf
+
+  - title: Functional Specification
+    output: web
+    folderitems:
+    - title: Filtering Slots
+      url: /provider_filtering_slots.html
+      output: web, pdf
+    
+  - title: Non-Functional Requirements
+    output: web
+    folderitems: 
+    - title: Non Functional Requirements
+      url: /non_functional_requirements.html
+      output: web, pdf
+    - title: Security Guidance
+      url: /security_guidance.html
+      output: web, pdf
+    - title: Volumetric Guidance
+      url: /volumetric_guidance.html
+      output: web, pdf
+    - title: Performance Guidance
+      url: /performance_guidance.html
+      output: web, pdf
+    - title: Operational Level Agreement
+      url: /ola.html
+      output: web, pdf
+    - title: Audit
+      url: /audit.html
+      output: web, pdf
+  
+  - title: Implementing the standard
+    output: web
+    folderitems:
+    - title: Implementation Overview
+      url: /implementation_overview.html
+      output: web, pdf
+    - title: Implementing FHIR&reg Resources
+      url: /implementation_FHIR.html
+      output: web, pdf
+    - title: Proof of Concept Demonstrator
+      url: /implementation_poc.html
+      output: web, pdf  
+  - title: First of Type
+    output: web
+    folderitems:
+    - title: First of Type
+      url: /first_of_type.html
+      output: web, pdf
+  
+  - title: Assurance Process
+    output: web
+    folderitems:
+    - title: Assurance Overview
+      url: /assurance_overview.html
+      output: web, pdf
+    - title: Supplier Assurance Process
+      url: /assurance_supplier.html
+      output: web, pdf
+         
+  - title: Getting Live
+    output: web
+    folderitems:
+    - title: Getting Live
+      url: /getting_live.html
+      output: web, pdf
+        
+  - title: Help and Support
+    output: web
+    folderitems:
+    - title: Contact Details
+      output: web, pdf
+      url: /contact.html  
+    - title: FAQ
+      url: /faq.html
+      output: web, pdf
+    - title: Glossary
+      url: /glossary.html
+      output: web, pdf
