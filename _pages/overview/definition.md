@@ -18,7 +18,7 @@ toc: false
 | Delay in transfer of care | Time measured from the perspective of the service delivering care, it is a delay in starting the handover process.  From the patient's perspective, the journey has not been interrupted.  See also **Handover time**.|
 | Handover time | The time taken to complete the handover process.  The time lapsed between a service requesting the handover and the process actually taken place is referred to as a **Delay in transfer of care**. |
 | Turnaround time | Time needed to make an ambulance available for the next episode of care.  **Definition of this metric can be found here**. |
-| Patient flow | Process-oriented view of the patient journey through the healthcare service.  **Improving patient flow**. *The term ‘flow’ describes the progressive movement of people, equipment and information through a sequence of processes. In healthcare, the term generally denotes the flow of patients between staff, departments and organisations along a pathway of care*.|
+| Patient flow | Process-oriented view of the patient journey through the healthcare service.  **Improving patient flow**. > *The term ‘flow’ describes the progressive movement of people, equipment and information through a sequence of processes. In healthcare, the term generally denotes the flow of patients between staff, departments and organisations along a pathway of care*.|
 | Patient journey | Person-oriented view of the pathway.  From the patient's perspective, the journey is defined by all the services involved in delivering care, in other words, the services forming the care pathway. |
 
                                    
