@@ -14,7 +14,11 @@ toc: false
 | Capacity | Service availability to deliver care.  For example, number of appointment slots available on Mondays.|
 |Delay | This is the basic concept underlying concept for **Wait Time**, **Delay in transfer of care**, **Handover time**, **Turnaround time**, etc.  It is also, by definition, a queue in the system.  See Delayed transfers of care: a quick guide.|
 |Throughput | Number of patients attending a service (incoming flow) vs. number of patients leaving (i.e. being discharged) the same service.  Check definitions for Patient Flow and Throughput.|
-| Wait Time (Display)| It is a delay in receiving care viewed from the perspective of the patient.  It can be modelled as a pause in the patient journey (as no care is being received at this point).  
-
+| Wait Time (Display)| It is a delay in receiving care viewed from the perspective of the patient.  It can be modelled as a pause in the patient journey (as no care is being received at this point).|
+| Delay in transfer of care | Time measured from the perspective of the service delivering care, it is a delay in starting the handover process.  From the patient's perspective, the journey has not been interrupted.  See also **Handover time**.|
+| Handover time | The time taken to complete the handover process.  The time lapsed between a service requesting the handover and the process actually taken place is referred to as a **Delay in transfer of care**. |
+| Turnaround time | Time needed to make an ambulance available for the next episode of care.  **Definition of this metric can be found here**. |
+| Patient flow | Process-oriented view of the patient journey through the healthcare service.  **Improving patient flow**. *The term ‘flow’ describes the progressive movement of people, equipment and information through a sequence of processes. In healthcare, the term generally denotes the flow of patients between staff, departments and organisations along a pathway of care*.|
+| Patient journey | Person-oriented view of the pathway.  From the patient's perspective, the journey is defined by all the services involved in delivering care, in other words, the services forming the care pathway. |
 
                                    
