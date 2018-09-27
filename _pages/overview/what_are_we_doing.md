@@ -6,7 +6,7 @@ permalink: what_are_we_doing.html
 
 ## Vision
 
-*By providing* capacity and demand information to Urgent and Emergency Care professionals
+**By providing** capacity and demand information to Urgent and Emergency Care professionals
 
 **Will** enable them to effectively and safely refer patients to the most clinically appropriate, convenient and available onward services, smoothing demand and improving expectations
 
