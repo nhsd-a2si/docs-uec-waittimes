@@ -7,7 +7,7 @@ toc: false
 
 ### Definitions for Capacity and Demand
 
-¦Term             ¦Definition                                ¦
-¦-----------------¦------------------------------------------¦
-¦Live / real      ¦                                          ¦ 
-¦time information ¦                                          ¦
+|Term             |Definition                                |
+|-----------------|------------------------------------------|
+|Live / real      |                                          | 
+|time information |                                          |
