@@ -5,4 +5,9 @@ permalink: definition.html
 toc: false
 ---
 
-### insert table here
+### Definitions for Capacity and Demand
+
+¦Term             ¦Definition                                ¦
+¦-----------------¦------------------------------------------¦
+¦Live / real      ¦                                          ¦ 
+¦time information ¦                                          ¦
