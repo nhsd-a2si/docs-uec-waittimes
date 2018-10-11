@@ -6,8 +6,6 @@ permalink: non_functional_requirements.html
 summary: "Details of non-functional requirements (NFRs) that describe system attributes such as security, reliability, maintainability, scalability, and usability"
 ---
 
-# Technical
-
 ## Security: Authentication, authorisation and access control
 Provider systems SHALL resist unauthorized, accidental or unintended usage and provide access only to legitimate users. 
 
@@ -19,8 +17,6 @@ Provider systems SHALL encrypted all data in transit
 ## Audit & provenance 
 Provider systems SHALL audit all API access and actions. 
 Please refer to the [cross organization audit and provenance](audit.html) page for technical details. 
-
-# Business
 
 ## Scalability: Data Volumes
 Provider systems MUST meet the agreed volumetric performance targets.  Please refer to the [Volumetric guidance](volumetric_guidance.html) page for technical details. 
