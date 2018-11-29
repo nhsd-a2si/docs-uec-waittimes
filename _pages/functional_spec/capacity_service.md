@@ -16,9 +16,9 @@ Below is the Capacity Service Infrastructure:
 ###The Actors
 
 There are a number of different systems involved in the end to end capacity process. These fall into the following categories:
-�	Consumer System
-�	National Infrastructure (including capacity components and existing NHS D Components)
-�	3rd Party Provider Systems
+* Consumer System
+* National Infrastructure (including capacity components and existing NHS D Components)
+* 3rd Party Provider Systems
 
 <image src="images/overview/components.png"/>  
 
