@@ -9,17 +9,15 @@ summary: "Details of non-functional requirements (NFRs) that describe system att
 ## Security: Authentication, authorisation and access control
 Provider systems SHALL resist unauthorized, accidental or unintended usage and provide access only to legitimate users. 
 
-Please refer to the [Security guidance](security_guidance.html) page for technical details.
- 
+
 ## Security: Encryption
 Provider systems SHALL encrypted all data in transit
 
 ## Audit & provenance 
 Provider systems SHALL audit all API access and actions. 
-Please refer to the [cross organization audit and provenance](audit.html) page for technical details. 
 
 ## Scalability: Data Volumes
-Provider systems MUST meet the agreed volumetric performance targets.  Please refer to the [Volumetric guidance](volumetric_guidance.html) page for technical details. 
+Provider systems MUST meet the agreed volumetric performance targets.  
 
 ## Performance: Response times 
 Provider systems SHALL provide real time live waiting times every 5 minutes to ensure it presents real time activity.
