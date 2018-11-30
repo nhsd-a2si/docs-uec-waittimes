@@ -2,10 +2,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Urgent & Emergency Care Appointment Booking
+topnav_title: Urgent & Emergency Care Wait Times
 # this appears on the top navigation bar next to the home button
 
-site_title: Urgent & Emergency Care Appointment Booking Standards
+site_title: Urgent & Emergency Care Wait Time Standards
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: NHS Digital
@@ -95,7 +95,7 @@ sidebars:
 - overview_sidebar
 - poc_sidebar
 
-description: "Urgent & Emergency Care Appointment Booking Standards"
+description: "Urgent & Emergency Care Wait Time Standards"
 # the description is used in the feed.xml file
 
 permalink: /:title/
@@ -105,7 +105,7 @@ sitemap: false
 # needed for sitemap.xml file only
 url: https://nhsd-a2si.github.io/docs-uec-appts
 
-repository: nhsd-a2si/docs-uec-appts
+repository: nhsd-a2si/docs-uec-waittimes
 
 gist:
   noscript: false
