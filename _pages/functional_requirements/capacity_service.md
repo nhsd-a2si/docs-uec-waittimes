@@ -9,7 +9,7 @@ permalink: capacity_service.html
 This section describes the interactions that happen as part of the capacity workflow.
 Below is the Capacity Service Infrastructure:
 
-<image src="images/overview/Cap_service_infrastructure.png"/>  
+<image src="images/functional/Cap_service_infrastructure.png"/>  
 
 
 
@@ -20,7 +20,7 @@ There are a number of different systems involved in the end to end capacity proc
 * National Infrastructure (including capacity components and existing NHS D Components)
 * 3rd Party Provider Systems
 
-<image src="images/overview/components.png"/>  
+<image src="images/functional/components.png"/>  
 
 
 ### Consumer Systems
