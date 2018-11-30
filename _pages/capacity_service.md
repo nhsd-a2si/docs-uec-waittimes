@@ -50,10 +50,17 @@ The provider system is the system that is collates, calculates and sends service
 
 ## Data Validation
 
+<<<<<<< 02cf6674bcd6a54528d510743dee3ae8e6bd1de6:_pages/capacity_service.md
 ** Capacity Info Reader – Storing capacity information from multiple services **
+=======
+** Capacity Info Reader � Storing capacity information from multiple services **
+>>>>>>> bade553510e05d3f97b2bdd098da8d8617e713d2:_pages/functional_spec/capacity_service.md
 This is used to collect and store wait time information to the Capacity Service with the following attributes:
 
-<<insert table here>>
+|Attributes       |Value         |Mandatory (Y/N)|Validation          |
+|-----------------|--------------|---------------||---------     -----|
+|serviceId | Identifier of the service|Yes| MUST match the DoS service identifier. Duplicate fields are rejected. |
+
 
 ** Capacity Service - Retrieving capacity information for multiple services**
 
