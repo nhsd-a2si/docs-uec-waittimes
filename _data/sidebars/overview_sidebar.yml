@@ -29,8 +29,8 @@ entries:
       url: /iuc_overview.html
       output: web, pdf
       type: homepage
-    - title: What we are doing
-      url: /what_we_are_doing.html
+    - title: What are we doing
+      url: /what_are_we_doing.html
       output: web, pdf
       type: homepage
 
