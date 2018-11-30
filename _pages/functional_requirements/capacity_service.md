@@ -50,7 +50,7 @@ The provider system is the system that is collates, calculates and sends service
 
 ## Data Validation
 
-** Capacity Info Reader – Storing capacity information from multiple services **
+**Capacity Info Reader – Storing capacity information from multiple services**
 
 This is used to collect and store wait time information to the Capacity Service with the following attributes:
 
@@ -62,14 +62,14 @@ This is used to collect and store wait time information to the Capacity Service 
 |Number of people waiting| Numeric |No |Numeric number of people waiting field can be blank, but if provided MUST be >=0.  Duplicate fields are rejected. |
 
 
-** Capacity Service - Retrieving capacity information for multiple services**
+**Capacity Service - Retrieving capacity information for multiple services**
 
 This is used to retrieve wait time information from to the DoS Proxy with the following validation rules:
 * Validation results are returned to calling service with an appropriate response code
 * Waiting times of zero minutes will not be returned to calling service
 * Wait times that are over 30 minutes old are deemed redundant and are no longer returned by the Capacity Service.
 
-** Waiting Time Calculation **
+**Waiting Time Calculation**
 
 Waiting times are to be calculated at source by provider systems and meet the following minimum quality criteria (MQC).  This criterion will evolve as learnings are acquired during beta implementations.
 * **Wait times have been measured from patient arrival to treatment** and not from arrival to assessment.  Pre-aggregated information items have to be calculated (for example, longest, average, etc. and what data items and values). Wait times for A&E is interpreted as wait time for treatment rather than wait times for initial assessment. There is a risk here if services are calculating wait time from arrival to initial assessment, this calculation is not representative of the service clinical throughput and it will not achieve the behavioural nudge as it may encourage patients to attend already stretched services and creates negative patient experience by undermining confidence in the accuracy of the wait time provided
