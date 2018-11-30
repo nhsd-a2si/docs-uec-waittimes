@@ -1,10 +1,10 @@
 entries:
 - title: Live Wait Time Standards
-  version: v0.1 DRAFT
+  version: v0.1.1
   levels: one
   folders:
 
-  - title: Inroduction
+  - title: Introduction
     output: web
     folderitems:
     - title: Introduction
@@ -18,9 +18,41 @@ entries:
       url: /getting_started.html
       output: web, pdf
 
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Capcity Definitions
+      url: /definition.html
+      output: web, pdf
+      type: homepage
+    - title: UEC Landscape
+      url: /iuc_overview.html
+      output: web, pdf
+      type: homepage
+    - title: What we are doing
+      url: /what_we_are_doing.html
+      output: web, pdf
+      type: homepage
+
   - title: Functional Specification
     output: web
     folderitems:
     - title: Capacity Service
       url: /capacity_service.html
       output: web, pdf
+
+  - title: Non Functional Requirements
+    output: web
+    folderitems:
+    - title: Non Functional Requirements
+      url: /non_functional_requirements.html
+      output: web, pdf
+      type: homepage
+
+  - title: Technical Specification
+    output: web
+    folderitems:
+    - title: Technical Specification
+      url: /technical.html
+      output: web, pdf
+      type: homepage
