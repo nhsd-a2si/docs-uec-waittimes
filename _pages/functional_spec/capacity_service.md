@@ -1,4 +1,4 @@
-﻿---
+---
 title: Capacity Service
 toc: True
 sidebar: overview_sidebar
@@ -50,7 +50,7 @@ The provider system is the system that is collates, calculates and sends service
 
 ## Data Validation
 
-** Capacity Info Reader � Storing capacity information from multiple services **
+** Capacity Info Reader – Storing capacity information from multiple services **
 This is used to collect and store wait time information to the Capacity Service with the following attributes:
 
 <<insert table here>>
