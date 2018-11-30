@@ -53,6 +53,6 @@ entries:
     output: web
     folderitems:
     - title: Technical Specification
-      url: /technical.html
+      url: /technical_spec.html
       output: web, pdf
       type: homepage
