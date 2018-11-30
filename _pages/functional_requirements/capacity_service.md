@@ -6,7 +6,7 @@ permalink: capacity_service.html
 ---
 
 ## Workflow and Interactions
-This section describes the interactions that happen as part of the capacity workflow. 
+This section describes the interactions that happen as part of the capacity workflow.
 Below is the Capacity Service Infrastructure:
 
 <image src="images/overview/Cap_service_infrastructure.png"/>  
@@ -50,21 +50,21 @@ The provider system is the system that is collates, calculates and sends service
 
 ## Data Validation
 
-<<<<<<< 02cf6674bcd6a54528d510743dee3ae8e6bd1de6:_pages/capacity_service.md
-** Capacity Info Reader – Storing capacity information from multiple services **
-=======
-** Capacity Info Reader � Storing capacity information from multiple services **
->>>>>>> bade553510e05d3f97b2bdd098da8d8617e713d2:_pages/functional_spec/capacity_service.md
+* ** Capacity Info Reader – Storing capacity information from multiple services **
+
 This is used to collect and store wait time information to the Capacity Service with the following attributes:
 
 |Attributes       |Value         |Mandatory (Y/N)|Validation          |
 |-----------------|--------------|---------------||---------     -----|
-|serviceId | Identifier of the service|Yes| MUST match the DoS service identifier. Duplicate fields are rejected. |
+|serviceId | Identifier of the service |Yes |MUST match the DoS service identifier. Duplicate fields are rejected|
+|waitingTimeMins| Waiting time in minutes |Yes| Wait time in minutes is mandatory (positive, null or zero).  MUST be supplied, cannot be blank. Also has to be 0 or above. Wait time has an upper limit of 24 hours.  Duplicate fields are rejected|
+| lastUpdated| Date time representing a timestamp for when this wait time was recorded.| Yes| ëLast Updatedí is not in the future and is not more than 30 minutes old.  Duplicate fields are rejected|
+|Number of people waiting| Numeric |No |Numeric number of people waiting field can be blank, but if provided MUST be >=0.  Duplicate fields are rejected. |
 
 
 ** Capacity Service - Retrieving capacity information for multiple services**
 
-This is used to retrieve wait time information from to the DoS Proxy with the following validation rules: 
+This is used to retrieve wait time information from to the DoS Proxy with the following validation rules:
 * Validation results are returned to calling service with an appropriate response code
 * Waiting times of zero minutes will not be returned to calling service
 * Wait times that are over 30 minutes old are deemed redundant and are no longer returned by the Capacity Service.
@@ -81,5 +81,5 @@ Note: The content for this page is currently under development and will be publi
 ## User Privileges
 Note: The content for this page is currently under development and will be published in due course.  
 
-## Monitoring, Analysis and Reporting 
+## Monitoring, Analysis and Reporting
 Note: The content for this page is currently under development and will be published in due course.  
