@@ -11,7 +11,7 @@ Provider systems SHALL resist unauthorized, accidental or unintended usage and p
 
 Please refer to the [Security guidance](security_guidance.html) page for technical details.
  
-##Security: Encryption
+## Security: Encryption
 Provider systems SHALL encrypted all data in transit
 
 ## Audit & provenance 
@@ -47,5 +47,5 @@ Provider and consumer systems MUST maintain a compliance of minimum Double â€œAâ
 
 Please refer to the [UEC Technical Standards](https://developer.nhs.uk/apis/uec-tech-standards/index.htmlhttps://developer.nhs.uk/apis/uec-tech-standards/index.html) for details. 
 
-## Deployment 
+
  
