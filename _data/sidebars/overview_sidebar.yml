@@ -48,6 +48,10 @@ entries:
       url: /non_functional_requirements.html
       output: web, pdf
       type: homepage
+    - title: Operational Level Agreement
+      url: /ola.html
+      output: web, pdf
+      type: homepage
 
   - title: Technical Specification
     output: web
