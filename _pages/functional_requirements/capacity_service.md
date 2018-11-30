@@ -1,4 +1,4 @@
----
+﻿---
 title: Capacity Service
 toc: True
 sidebar: overview_sidebar
@@ -32,16 +32,16 @@ The consuming system belongs to the service that is searching for an appropriate
 
 When the Consumer calls wait times of a service a number of systems that are hosted by NHS Digital as national infrastructure need to be interacted with. These are as follows:
 
-* **National DoS**
+**National DoS**
 The national DoS can be used to discover the most appropriate service for the patient.
 
-* **DoS Proxy**
+**DoS Proxy**
 The DoS Proxy is essentially a proxy between existing DoS clients and the DoS system itself. Its purpose is to embellish the data returned from DoS. For the response that includes the recommendation for patient treatment, the DoS Proxy will try to add in waiting time data about the current capacity of the service being recommended from the Capacity Service.
 
-* **Capacity Service**
+**Capacity Service**
 The Capacity Service is a cache of current capacity information. It offers a Rest API that allows the DoS Proxy (and other systems) to request the current capacity information for a service. It is this information (when available) that the DoS Proxy adds to the responses from the DoS system. The capacity service also allows other systems to set the current capacity information. Providers will also use this as an easy way to provide their capacity data. Ideally, a provider will use the Capacity Server API to push data in as timely a way as possible. The alternative is that the Capacity Service will have point to point integrations developed that will poll and pull data where possible. It is important to note that the capacity service has been developed to be independent of the DoS system, DoS Proxy etc. and exists as a standalone microservice.
 
-* **Capacity Info Reader**
+**Capacity Info Reader**
 Capacity information reader provides a platform around the individual jobs that will be developed for each provider. The platform includes a scheduler for starting jobs at appropriate times and access to the capacity server to set the current data
 
 ### 3rd Party Provider Systems
@@ -50,15 +50,15 @@ The provider system is the system that is collates, calculates and sends service
 
 ## Data Validation
 
-* ** Capacity Info Reader – Storing capacity information from multiple services **
+** Capacity Info Reader – Storing capacity information from multiple services **
 
 This is used to collect and store wait time information to the Capacity Service with the following attributes:
 
 |Attributes       |Value         |Mandatory (Y/N)|Validation          |
-|-----------------|--------------|---------------||---------     -----|
+|-----------------|--------------|---------------| -------------------|
 |serviceId | Identifier of the service |Yes |MUST match the DoS service identifier. Duplicate fields are rejected|
 |waitingTimeMins| Waiting time in minutes |Yes| Wait time in minutes is mandatory (positive, null or zero).  MUST be supplied, cannot be blank. Also has to be 0 or above. Wait time has an upper limit of 24 hours.  Duplicate fields are rejected|
-| lastUpdated| Date time representing a timestamp for when this wait time was recorded.| Yes| ëLast Updatedí is not in the future and is not more than 30 minutes old.  Duplicate fields are rejected|
+| lastUpdated| Date time representing a timestamp for when this wait time was recorded.| Yes| Last Updated is not in the future and is not more than 30 minutes old.  Duplicate fields are rejected|
 |Number of people waiting| Numeric |No |Numeric number of people waiting field can be blank, but if provided MUST be >=0.  Duplicate fields are rejected. |
 
 
